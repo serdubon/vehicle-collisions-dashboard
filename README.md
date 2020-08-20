@@ -23,7 +23,7 @@ Para correr el servidor utilizar el siguiente comando:
 streamlit run app.py
 
 ```
-Debido al tamaño del Dataset este puede ser descargado [aquí]( https://data.cityofnewyork.us/api/views/h9gi-nx95/rows.csv?accessType=DOWNLOAD). Este deberá agregarse a la siguiente carpeta:
+Debido al tamaño del Dataset se usa una versión liviana como muestra, la versión completa puede ser descargada [aquí]( https://data.cityofnewyork.us/api/views/h9gi-nx95/rows.csv?accessType=DOWNLOAD). Este deberá agregarse a la siguiente carpeta:
 
 ```
 
