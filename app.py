@@ -6,7 +6,7 @@ import plotly.express as px
 
 
 st.title("Motor Vehicle Collisions in New York City")
-st.markdown("This application is a Streamlit dashboard")
+st.markdown("Application to visualize car accidents in the city of New York. ")
 
 # Geting the data and keep the data in cache
 @st.cache(persist=True)
@@ -122,4 +122,9 @@ else:
 # Show the original data in a table
 if st.checkbox("Show Raw Data", False):
     st.subheader("Raw Data")
-    st.write(data)
+    st.write(data.head(300))
+
+st.markdown(
+    'Made with *Love!*  <a href="https://github.com/serdubon"> <img src="https://img.icons8.com/material-rounded/24/000000/github.png"/> </a> :heartbeat:',
+    unsafe_allow_html=True,
+)
